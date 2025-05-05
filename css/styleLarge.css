@@ -1,0 +1,161 @@
+html{
+    color: rgb(255, 255, 255)  !important;
+    font-size: 1.1em  !important;
+
+}
+
+body{
+    color: rgb(245, 235, 235)  !important;
+}
+
+strong{
+    color: rgb(255, 165, 0)  !important;
+}
+
+.nav-link{
+    color: rgb(255, 184, 77)  !important;
+}
+
+a {
+    color: rgb(255, 184, 77)  !important;
+}
+
+
+a:hover{
+    color: rgb(255, 133, 27)  !important;
+}
+
+.mar-r-0 {
+   margin-right: 0px !important;
+}
+
+
+.header-baseCol{
+    color: rgb(255, 255, 255)  !important;
+}
+
+
+.gradient-custom {
+    background: rgb(65, 0, 0);
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(65, 0, 0), rgb(105, 0, 5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right,rgb(65, 0, 0), rgb(105, 0, 5));
+  }
+
+.divider{
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(255, 225, 185);
+}
+
+.divider_s{
+    height: 1px;
+    width: 90%;
+    background-color: rgb(255, 225, 185);
+    opacity: 0.3;
+}
+
+.vert{
+    height: 200px;
+    width: 1px;
+    background-color: rgb(255, 225, 185);
+}
+
+
+
+header{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.w-45{
+    width:  45%;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.pad-l-10px{
+    padding-left: 10px;
+}
+
+.pad-t-10px{
+    padding-top: 10px;
+}
+
+.mar-t--50px{
+    margin-top: -50px !important;
+}
+
+.space{
+    padding-left: 10px;
+}
+
+.pad-l-10{
+    padding-left: 10%;
+}
+
+.pad-r-10{
+    padding-right: 10%;
+}
+
+
+.pad-b--50px{
+    margin-bottom: -50px !important; 
+}
+
+.borderImage{
+    border-radius: 40px;
+}
+
+ .social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+
+
+/* ------- SKILLS ------- */
+.Skils{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 10%;
+ }
+
+ .left_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .right_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .flexcontainer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+ }
+
+
+
+
+
