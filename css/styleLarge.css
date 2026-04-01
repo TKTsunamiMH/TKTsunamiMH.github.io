@@ -1,11 +1,14 @@
 html{
     color: rgb(255, 255, 255)  !important;
     font-size: 1.1em  !important;
-
 }
 
 body{
     color: rgb(245, 235, 235)  !important;
+}
+
+.container {
+    max-width: 1700px !important; /* oder 95vw */
 }
 
 strong{
@@ -13,6 +16,9 @@ strong{
 }
 
 .nav-link{
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px;
     color: rgb(255, 184, 77)  !important;
 }
 
@@ -34,6 +40,23 @@ a:hover{
     color: rgb(255, 255, 255)  !important;
 }
 
+.iconSVG {
+    width: 30px;
+    height: 30px;
+    fill: rgb(255, 184, 77) !important;
+}
+
+.iconAvailability {
+    width: 20px;
+    height: 20px;
+    fill: rgb(255, 255, 255) !important;
+}
+
+.iconSocial {
+    width: 20px;
+    height: 20px;
+    fill: rgb(255, 184, 77) !important;
+}
 
 .gradient-custom {
     background: rgb(65, 0, 0);
@@ -45,8 +68,49 @@ a:hover{
     background: linear-gradient(to right,rgb(65, 0, 0), rgb(105, 0, 5));
   }
 
+.availability-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 184, 77);
+    box-shadow: 0 0 15px rgba(255, 184, 77, 0.4);
+    margin-bottom: 20px;
+    max-width: 800px !important;
+    min-width: 360px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.availability-tags {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.availability-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.65rem 1.1rem;
+    border: 1.5px solid #d4a81e;
+    border-radius: 999px;
+    gap: 6px;
+
+    background: rgba(255, 255, 255, 0.03);
+    color: #f0dfb0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
 .divider{
     margin-top: 5px;
+    margin-bottom: 20px;
     height: 1px;
     width: 100%;
     background-color: rgb(255, 225, 185);
@@ -73,6 +137,14 @@ header{
     flex-direction: column;
     align-items: center;
  
+}
+
+footer{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .w-45{
@@ -125,7 +197,7 @@ header{
 
 
 /* ------- SKILLS ------- */
-.Skils{
+.Skills{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -155,7 +227,101 @@ header{
     margin-bottom: 10px;
  }
 
+.horizontal-container {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.project-card {
+    width: 400px;
+    background: #021e383b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    
+}
 
+.project-card-title {
+    position: relative;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.game-logo {
+    position: relative;
+    top: 10px;
+    max-width: 80%;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-card .carousel-item img {
+    width: 100%;
+    height: 14rem;
+    object-fit: contain;
+}
+
+.container_intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.4rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-bottom: 0.5rem;
+    margin-right: 0.2rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.project-tag[data-category="engine"] {
+    background: rgba(120,180,255,0.12);
+    color: #7ab4ff;
+}
+
+.project-tag[data-category="language"] {
+    background: rgba(180,255,160,0.10);
+    color: #9de87a;
+}
+
+.project-tag[data-category="platform"] {
+    background: rgba(200,140,255,0.10);
+    color: #c47fff;
+}
+
+.project-tag[data-category="concept"] {
+    background: rgba(255,130,110,0.10);
+    color: #ff8a72;
+}
+
+.project-tag[data-category="style"] {
+    background: rgba(255,200,100,0.10);
+    color: #f0bc55;
+}
 
 

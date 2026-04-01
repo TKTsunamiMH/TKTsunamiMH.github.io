@@ -12,15 +12,14 @@
 
         <!---- ---------------- FONT ---------------  -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https//fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.google.com/specimen/Montserrat" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 
         <title>Marie Hellström - Game Programmer Portfolio</title>
     </head>
         <!-- ----------------- BODY ----------------- -->
     <body class="gradient-custom">
- 
-
         <header>
             <nav class="navbar navbar-expand-lg flex-center">
                 <div class="container-fluid">
@@ -29,86 +28,679 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link" href="#">About me</a>
-                      <a class="nav-link" href="#Unity">Unity</a>
+                        <a class="nav-link" href="files/resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M5.523 10.424q.21-.124.459-.238a8 8 0 0 1-.45.606c-.28.337-.498.516-.635.572l-.035.012a.3.3 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548m2.455-1.647q-.178.037-.356.078a21 21 0 0 0 .5-1.05 12 12 0 0 0 .51.858q-.326.048-.654.114m2.525.939a4 4 0 0 1-.435-.41q.344.007.612.054c.317.057.466.147.518.209a.1.1 0 0 1 .026.064.44.44 0 0 1-.06.2.3.3 0 0 1-.094.124.1.1 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256M8.278 4.97c-.04.244-.108.524-.2.829a5 5 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.5.5 0 0 1 .145-.04c.013.03.028.092.032.198q.008.183-.038.465z"/>
+                                <path fill-rule="evenodd" d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m.165 11.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.6 11.6 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.86.86 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.84.84 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.8 5.8 0 0 0-1.335-.05 11 11 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.24 1.24 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a20 20 0 0 1-1.062 2.227 7.7 7.7 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103"/>
+                            </svg>
+                            Resume
+                        </a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/marie-luise-hellstr%C3%B6m-3b1338190/" target="_blank" rel="noopener noreferrer">
+                            <svg class="iconSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a class="nav-link" href="mailto:mlhellstroem@gmail.com">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg>
+                            mlhellstroem@gmail.com
+                        </a>
+                        <a class="nav-link" href="#projects">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z"/>
+                                <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27"/>
+                            </svg>
+                            Projects
+                        </a>
+                        <a class="nav-link" href="#about-me">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                            </svg>
+                            About me
+                        </a>
+                        <a class="nav-link" href="https://sunfiragames.itch.io/" target="_blank" rel="noopener noreferrer">
+                            <svg class="iconSVG" viewBox="0 0 24 24">
+                                <path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.137 2.41 2.466 2.41h.024c1.33 0 2.466-1.102 2.466-2.41 0 1.308 1.034 2.41 2.363 2.41 1.33 0 2.4-1.102 2.4-2.41 0 1.308 1.106 2.41 2.435 2.41C22.78 8.43 24 7.282 24 5.98V4.95c-.02-.62-2.082-2.99-3.13-3.612-3.253-.114-5.508-.134-8.87-.133-3.362 0-7.945.053-8.87.133zm6.376 6.477a2.74 2.74 0 0 1-.468.602c-.5.49-1.19.795-1.947.795a2.786 2.786 0 0 1-1.95-.795c-.182-.178-.32-.37-.446-.59-.127.222-.303.412-.486.59a2.788 2.788 0 0 1-1.95.795c-.092 0-.187-.025-.264-.052-.107 1.113-.152 2.176-.168 2.95v.005l-.006 1.167c.02 2.334-.23 7.564 1.03 8.85 1.952.454 5.545.662 9.15.663 3.605 0 7.198-.21 9.15-.664 1.26-1.284 1.01-6.514 1.03-8.848l-.006-1.167v-.004c-.016-.775-.06-1.838-.168-2.95-.077.026-.172.052-.263.052a2.788 2.788 0 0 1-1.95-.795c-.184-.178-.36-.368-.486-.59-.127.22-.265.412-.447.59a2.786 2.786 0 0 1-1.95.794c-.76 0-1.446-.303-1.948-.793a2.74 2.74 0 0 1-.468-.602 2.738 2.738 0 0 1-.463.602 2.787 2.787 0 0 1-1.95.794h-.16a2.787 2.787 0 0 1-1.95-.793 2.738 2.738 0 0 1-.464-.602zm-2.004 2.59v.002c.795.002 1.5 0 2.373.953.687-.072 1.406-.108 2.125-.107.72 0 1.438.035 2.125.107.873-.953 1.578-.95 2.372-.953.376 0 1.876 0 2.92 2.934l1.123 4.028c.832 2.995-.266 3.068-1.636 3.07-2.03-.075-3.156-1.55-3.156-3.025-1.124.184-2.436.276-3.748.277-1.312 0-2.624-.093-3.748-.277 0 1.475-1.125 2.95-3.156 3.026-1.37-.004-2.468-.077-1.636-3.072l1.122-4.027c1.045-2.934 2.545-2.934 2.92-2.934zM12 12.714c-.002.002-2.14 1.964-2.523 2.662l1.4-.056v1.22c0 .056.56.033 1.123.007.562.026 1.124.05 1.124-.008v-1.22l1.4.055C14.138 14.677 12 12.713 12 12.713z"/>
+                            </svg>
+                            itch.io
+                        </a>
                     </div>
-                  </div>
-            
+                  </div>            
                 </div>
               </nav>
-             
-             
         </header>
-        <img  class="divider" src="./Images/Decorative/Divider.png"> </img>
 
-            <!-------- IMAGES -->
-            <!--
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 pad-l-10 pad-r-10 mar-r-0">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <div class="right_large">
-                    <div id="carousel_self" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carousel_self" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carousel_self" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carousel_self" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./Images/BasePictures/Isa Hellstroem.jpg" class="d-block w-45  d-block mx-lg-auto img-fluid" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./Images/BasePictures/Forest_2.jpg" class="d-block w-100  d-block mx-lg-auto img-fluid" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./Images/BasePictures/Cat.jpg" class="d-block w-100  d-block mx-lg-auto img-fluid" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_self" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_self" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        
-                    </div>
-                     <div><small>
-                        Originally from Germany, now living in the swedish nature in the middle of a forest.
-                        I love RPGs, cozy games and citybuilders, but also rogue likes and survival games.
-                    </small></div>
-                </div>
-            </div>
-         -->
+               
+        <img  class="divider" src="./Images/Decorative/Divider.png"> </img>
             
          <div class="container">
             <div class="row">
-              <div class="col-md-4">
-
-                </div>
-            <h1 class="display-6 fw-bold header-baseCol">Hi, I'm <strong>Marie Hellström</strong></h1>
-            <h2 class="display-7 fw-bold header-baseCol">a <i>Game Programmer</i> for <i>your next project</i>!</h2>
-              <div class="social"><a href="https://www.linkedin.com/in/marie-luise-hellstr%C3%B6m-3b1338190/" target="_blank"><script src="js/icon_linkedin.cs "></script></a></div>  
-              <p>Contact: <a href="mailto:mlhellstroem@gmail.com">mlhellstroem@gmail.com</a></p>
-            <p class="lead"> With 5+ years of experience in Unity and a strong background in C# and multiplayer systems, I build games that are clean under the hood and fun on the surface.<br>
-                From developing core gameplay systems to creating editor tools and managing remote teams, I bring both technical depth and collaborative experience to every project. <br>
-                I worked on mobile, 2D, and 3D games, including leading the development of a multiplayer Trading Card Game with Photon. I’m passionate about writing efficient, maintainable code and helping teams stay organized and agile, especially through SCRUM-based workflows.
-                <br><br>
-                While my focus is on programming, I also bring a creative edge: I have a experience in visual design and can create simple 2D and 3D assets when needed.<br>
-                Whether you're looking for a <b>Technical Designer</b>, a reliable <b>Team Lead</b>, or a <b>Programmer</b> with an eye for gameplay feel, I'm <b>your</b> match.
-              Game Jam projects: <a href="https://sunfiragames.itch.io/" target="_blank">https://sunfiragames.itch.io/</a> 
-            </div>
+                <section class="availability-card">
+                    <h2>Available for Full-Time &amp; Part-Time</h2>
+                    <p>
+                        Sweden-based Unity Game Programmer with 3 years of professional experience.
+                        Ready to contribute to your team immediately.
+                    </p>                    
+                    <div class="availability-tags">
+                        <span class="availability-tag">
+                            <svg class="iconAvailability" viewBox="0 0 16 16">
+                                <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707z"/>
+                                <path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018"/>
+                            </svg>
+                            Based in Sweden · Remote</span>
+                        <span class="availability-tag">
+                            <svg class="iconAvailability" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            </svg>
+                            10–40 hours/week · Immediate Start</span>
+                        <span class="availability-tag">
+                            <svg class="iconAvailability" viewBox="0 0 16 16">
+                                <path d="M15 11.2V3.733L8.61 0v2.867l2.503 1.466c.099.067.099.2 0 .234L8.148 6.3c-.099.067-.197.033-.263 0L4.92 4.567c-.099-.034-.099-.2 0-.234l2.504-1.466V0L1 3.733V11.2v-.033.033l2.438-1.433V6.833c0-.1.131-.166.197-.133L6.6 8.433c.099.067.132.134.132.234v3.466c0 .1-.132.167-.198.134L4.031 10.8l-2.438 1.433L7.983 16l6.391-3.733-2.438-1.434L9.434 12.3c-.099.067-.198 0-.198-.133V8.7c0-.1.066-.2.132-.233l2.965-1.734c.099-.066.197 0 .197.134V9.8z"/>
+                            </svg>
+                            Unity</span>
+                    </div>
+                </section>
         </div>
-
         <br>
-        <div class="Skils">
+             <section id="projects">
+        <div class="horizontal-container">
+            <!------------------------------ Fishtank  --------------------->
+            <div class="project-card">
+                <div class="project-card-title" posi="">
+<!--                    <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3" target="_blank" class="project-link">-->
+<!--                        <img class="game-logo" src="./Images/JESoftware/sniper3.png" class="game-logo" alt="Zombie Sniper War 3 - Fire FPS">-->
+<!--                    </a>-->
+                    <img class="game-logo" src="./Images/Unity/Fishtank/banner.png" class="game-logo" alt="Fish Tank Banner">
+                </div>
+                <div class="project-meta">
+                    3D, Mobile, PC
+                    <div class="tab">
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                        </svg>
+                        <a href="https://www.jesoftware.se/" target="_blank">Own Project<tab class="space"></tab></a> <br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <b>Game Programmer, Game Designer</b><br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        </svg>
+                        2026 ~2 months<br>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                        <div class="project-type">
+                            Simulation
+                        </div>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                    </div>
+                    <!-- Carousel -->
+                    <div id="carousel_MFG_Fishtank" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel_MFG_Fishtank" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel_MFG_Fishtank" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="./Images/Unity/Fishtank/SmallTank.png" target="_blank">
+                                    <img src="./Images/Unity/Fishtank/SmallTank.png" class="d-block w-100 img-fluid" alt="Fill your tank and fulfill your client's wishes or your own!">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="./Images/Unity/Fishtank/TankCreate.png" target="_blank">
+                                    <img src="./Images/Unity/Fishtank/TankCreate.png" class="d-block w-100 img-fluid" alt="Create own tanks!">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_MFG_Fishtank" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_MFG_Fishtank" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p class="lead mt-3">
+                        Building and designing a fish tank, based on your own or your client's wishes.
+                    </p>
+                    <ul class="project-features">
+                        <li> Developing the idea and concept of the game, including designing the core gameplay loop and mechanics.
+                        </li>
+                        <li> Implementing a fish tank creator for players.
+                        </li>
+                        <li> Implementing base placement and safe system for the fish tanks.
+                        </li>
+                    </ul>
+                    <div class="row-tags">
+                        <span class="project-tag" data-category="engine">Unity
+                        </span>
+                        <span class="project-tag" data-category="language">C#
+                        </span>
+                        <span class="project-tag" data-category="platform">Mobile
+                        </span>
+                        <span class="project-tag" data-category="platform">PC
+                        </span>
+                        <span class="project-tag" data-category="style">3D
+                        </span>
+                        <span class="project-tag" data-category="concept">Architecture Design
+                        </span>
+                        <span class="project-tag" data-category="concept">Hexagon Grid
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------ Sniper 3  --------------------->
+            <div class="project-card">
+                <div class="project-card-title" posi="">
+                    <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3" target="_blank" class="project-link">
+                        <img class="game-logo" src="./Images/JESoftware/sniper3.png" class="game-logo" alt="Zombie Sniper War 3 - Fire FPS">
+                    </a>
+                </div>
+                <div class="project-meta">
+                    <div class="tab">
+                    <svg class="iconAvailability" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                    </svg>
+                        <a href="https://www.jesoftware.se/" target="_blank">JE Software<tab class="space"></tab></a> <br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <b>Game Programmer</b><br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        </svg>
+                        2024-2025 ~6 months<br>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                        <div class="project-type">
+                            Action, Shooter
+                        </div>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                    </div>
+                <!-- Carousel -->
+                <div id="carousel_JE_SNIPER" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel_JE_SNIPER" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel_JE_SNIPER" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./Images/JESoftware/Sniper3InGame.jpg" target="_blank">
+                                <img src="./Images/JESoftware/Sniper3InGame.jpg" class="d-block w-100 img-fluid" alt="InGame screenshot of Zombie Sniper War 3 - Fire FPS">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./Images/JESoftware/sniper3InGame2.png" target="_blank">
+                                <img src="./Images/JESoftware/sniper3InGame2.png" class="d-block w-100 img-fluid" alt="InGame screenshot of Zombie Sniper War 3 - Fire FPS">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_JE_SNIPER" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_JE_SNIPER" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="lead mt-3">
+                    A nonstop action-packed zombie shooting FPS game.
+                </p>
+                <ul class="project-features">
+                    <li> Focused on developing custom editor tools.
+                    </li>
+                    <li> Refactoring and restructuring the existing codebase.
+                    </li>
+                    <li> Implementing the foundational systems for a casino wheel game.
+                    </li>
+                </ul>
+                </div>
+                <div class="row-tags">
+                        <span class="project-tag" data-category="engine">Unity
+                        </span>
+                    <span class="project-tag" data-category="language">C#
+                        </span>
+                    <span class="project-tag" data-category="platform">Mobile
+                        </span>
+                    <span class="project-tag" data-category="style">3D
+                        </span>
+                    <span class="project-tag" data-category="concept">Refactoring
+                        </span>
+                    <span class="project-tag" data-category="concept">Minigame
+                        </span>
+                </div>
+            </div>
+            <!------------------------------ Unnamed project  --------------------->
+             <div class="project-card">
+                 <div class="project-card-title" posi="">
+                     <!--
+                     <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3" target="_blank" class="project-link">
+                         <img class="game-logo" src="./Images/JESoftware/sniper3.png" class="game-logo" alt="Zombie Sniper War 3 - Fire FPS">
+                     </a>
+                     -->
+                     <h2>Two unnamed projects</h2>
+                 </div>
+                 <div class="project-meta">
+                     <div class="tab">
+                         <svg class="iconAvailability" viewBox="0 0 16 16">
+                             <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                             <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                         </svg>
+                         <a href="https://www.jesoftware.se/" target="_blank">JE Software<tab class="space"></tab></a> <br>
+                         <svg class="iconAvailability" viewBox="0 0 16 16">
+                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                         </svg>
+                         <b>Game Programmer</b><br>
+                         <svg class="iconAvailability" viewBox="0 0 16 16">
+                             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                         </svg>
+                         2024-2025 ~6 months<br>
+                         <img class="divider_s" src="./Images/Decorative/Divider.png">
+                         <div class="project-type">
+                             Merge, Shooter
+                         </div>
+                         <img class="divider_s" src="./Images/Decorative/Divider.png">
+                     </div>
+                     <!-- Carousel -->
+                     <div id="carousel_JE_UP" class="carousel slide">
+                         <div class="carousel-indicators">
+                             <button type="button" data-bs-target="#carousel_JE_UP" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                         </div>
+                         <div class="carousel-inner">
+                             <div class="carousel-item active">
+                                 <a href="./Images/JESoftware/Sniper3InGame.jpg" target="_blank">
+                                     <img src="./Images/JESoftware/Sniper3InGame.jpg" class="d-block w-100 img-fluid" alt="InGame screenshot of Zombie Sniper War 3 - Fire FPS">
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                     <p class="lead mt-3">
+                         A merging game and another unnamed project.
+                     </p>
+                     <ul class="project-features">
+                         <li> Contributed to two ongoing, unnamed projects still in development.
+                         </li>
+                         <li> Implementing editor functionality to switch materials across multiple objects with a single button.
+                         </li>
+                         <li> Developing a merging feature.
+                         </li>
+                         <li> Implementing dynamic transitions between 2D menu elements and interactive 3D units on the field
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="row-tags">
+                        <span class="project-tag" data-category="engine">Unity
+                        </span>
+                     <span class="project-tag" data-category="language">C#
+                        </span>
+                     <span class="project-tag" data-category="platform">Mobile
+                        </span>
+                     <span class="project-tag" data-category="style">3D
+                        </span>
+                     <span class="project-tag" data-category="concept">Editor Tools
+                        </span>
+                     <span class="project-tag" data-category="concept">Game features
+                        </span>
+                 </div>
+             </div>
+            <!------------------------------ Flexify  --------------------->
+             <div class="project-card">
+                 <div class="project-card-title" posi="">
+                     <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.JEBend&hl=gsw" target="_blank" class="project-link">
+                         <img class="game-logo" src="./Images/JESoftware/flexifyIcon.png" class="game-logo" alt="Flexify - Home Workout">
+                     </a>
+                 </div>
+                 <div class="project-meta">
+                     2D, Mobile
+                     <div class="tab">
+                         <svg class="iconAvailability" viewBox="0 0 16 16">
+                             <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                             <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                         </svg>
+                         <a href="https://www.jesoftware.se/" target="_blank">JE Software<tab class="space"></tab></a> <br>
+                         <svg class="iconAvailability" viewBox="0 0 16 16">
+                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                         </svg>
+                         <b>Game Programmer</b><br>
+                         <svg class="iconAvailability" viewBox="0 0 16 16">
+                             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                         </svg>
+                         2024-2025 ~6 months<br>
+                         <img class="divider_s" src="./Images/Decorative/Divider.png">
+                         <div class="project-type">
+                             Health &amp; Fitness
+                         </div>
+                         <img class="divider_s" src="./Images/Decorative/Divider.png">
+                     </div>
+                     <!-- Carousel -->
+                     <div id="carousel_JE_Flexify" class="carousel slide">
+                         <div class="carousel-indicators">
+                             <button type="button" data-bs-target="#carousel_JE_Flexify" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                             <button type="button" data-bs-target="#carousel_JE_Flexify" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                             <button type="button" data-bs-target="#carousel_JE_Flexify" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                         </div>
+                         <div class="carousel-inner">
+                             <div class="carousel-item active">
+                                 <a href="./Images/JESoftware/flexify.png" target="_blank">
+                                     <img src="./Images/JESoftware/flexify.png" class="d-block w-100 img-fluid" alt="Flexify - Home Workout">
+                                 </a>
+                             </div>
+                             <div class="carousel-item">
+                                 <a href="./Images/JESoftware/flexify2.png" target="_blank">
+                                     <img src="./Images/JESoftware/flexify2.png" class="d-block w-100 img-fluid" alt="Flexify - Home Workout">
+                                 </a>
+                             </div>
+                             <div class="carousel-item">
+                                 <a href="./Images/JESoftware/flexify3.png" target="_blank">
+                                     <img src="./Images/JESoftware/flexify3.png" class="d-block w-100 img-fluid" alt="Flexify - Home Workout">
+                                 </a>
+                             </div>
+                         </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel_JE_Flexify" data-bs-slide="prev">
+                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Previous</span>
+                         </button>
+                         <button class="carousel-control-next" type="button" data-bs-target="#carousel_JE_Flexify" data-bs-slide="next">
+                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Next</span>
+                         </button>
+                     </div>
+                     <p class="lead mt-3">
+                         A fitness App, designed to help to maintain your fitness at home.
+                     </p>
+                     <ul class="project-features">
+                         <li> Refactored core code.
+                         </li>
+                         <li> Resolved bugs.
+                         </li>
+                         <li> Expanded existing features.
+                         </li>
+                         <li> Implementing a system to convert between the two measurement: metric system and imperial system.
+                         </li>
+                         <li> A calendar that displays the data for the selected day, including the progress and the exercises completed on that day.
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="row-tags">
+                        <span class="project-tag" data-category="engine">Unity
+                        </span>
+                     <span class="project-tag" data-category="language">C#
+                        </span>
+                     <span class="project-tag" data-category="platform">Mobile
+                        </span>
+                     <span class="project-tag" data-category="style">2D
+                        </span>
+                     <span class="project-tag" data-category="concept">Refactoring
+                        </span>
+                     <span class="project-tag" data-category="concept">Data Management
+                        </span>
+                     <span class="project-tag" data-category="concept">Bug fixes
+                        </span>
+                 </div>
+             </div>
+            <!------------------------------ NEVERRIFT  --------------------->
+            <div class="project-card">
+                <div class="project-card-title" posi="">
+                    <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.JEBend&hl=gsw" target="_blank" class="project-link">
+                        <img class="game-logo" src="./Images/Unity/Neverrift/NeverriftLogoTransparent.png" class="game-logo" alt="Neverrift TCG">
+                    </a>
+                </div>
+                <div class="project-meta">
+                    2D, Mobile
+                    <div class="tab">
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                        </svg>
+                        <a href="https://www.jesoftware.se/" target="_blank">JE Software<tab class="space"></tab></a> <br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <b>Game Programmer &amp; Lead Development</b><br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        </svg>
+                        2022-2024 ~31 months<br>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                        <div class="project-type">
+                            Multiplayer Trading Card Game
+                        </div>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                    </div>
+                    <!-- Carousel -->
+                    <div id="carousel_GttG_Neverrift" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel_GttG_Neverrift" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel_GttG_Neverrift" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="./Images/Unity/Neverrift/Neverrift-TCG-3-smartphones-768x679.png" target="_blank">
+                                    <img src="./Images/Unity/Neverrift/Neverrift-TCG-3-smartphones-768x679.png" class="d-block w-100 img-fluid" alt="Flexify - Home Workout">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="./Images/Unity/Neverrift/7_2-column-1.png" target="_blank">
+                                    <img src="./Images/Unity/Neverrift/7_2-column-1.png" class="d-block w-100 img-fluid" alt="Flexify - Home Workout">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_GttG_Neverrift" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_GttG_Neverrift" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p class="lead mt-3">
+                        A turn-based Trading Card Game using a grid and multiplayer system.
+                    </p>
+                    <ul class="project-features">
+                        <li> Started as sole Game Programmer alongside two Game Designers.
+                        </li>
+                        <li> Developed main structure code for 2D turn and grid based Trading Card Game in Unity Engine.
+                        </li>
+                        <li> Implemented multiplayer features with Photon.
+                        </li>
+                        <li> Developed game-related editor tools to facilitate implementing new game content.
+                        </li>
+                        <li> Performed code refactoring and optimization to improve performance.
+                        </li>
+                        <li> Implementing localization process, ensuring accurate translations without compromising gameplay quality.
+                        </li>
+                        <li> Leading team meetings following SCRUM principles and managing tasks as Lead Programmer.
+                        </li>
+                        <li> Collaborated with designers for seamless integration of gameplay mechanics.
+                        </li>
+                    </ul>
+                </div>
+                <div class="row-tags">
+                        <span class="project-tag" data-category="engine">Unity
+                        </span>
+                    <span class="project-tag" data-category="language">C#
+                        </span>
+                    <span class="project-tag" data-category="platform">Mobile
+                        </span>
+                    <span class="project-tag" data-category="style">2D
+                        </span>
+                    <span class="project-tag" data-category="concept">Architecture Design
+                        </span>
+                    <span class="project-tag" data-category="concept">Multiplayer / Photon
+                        </span>
+                    <span class="project-tag" data-category="concept">Editors Tools
+                        </span>
+                    <span class="project-tag" data-category="concept">Game features
+                        </span>
+                    <span class="project-tag" data-category="concept">Code Refactoring
+                        </span>
+                    <span class="project-tag" data-category="concept">Localization
+                        </span>
+                </div>
+            </div>
+            <!------------------------------ Smaller Projects  --------------------->
+            <div class="project-card">
+                <div class="project-card-title" posi="">
+                    <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.JEBend&hl=gsw" target="_blank" class="project-link">
+                        <img class="game-logo" src="./Images/Unity/Neverrift/NeverriftLogoTransparent.png" class="game-logo" alt="Neverrift TCG">
+                    </a>
+                </div>
+                <div class="project-meta">
+                    2D, Mobile
+                    <div class="tab">
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                        </svg>
+                        <a href="https://www.jesoftware.se/" target="_blank">JE Software<tab class="space"></tab></a> <br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <b>Game Programmer &amp; Lead Development</b><br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        </svg>
+                        2018-2025<br>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                        <div class="project-type">
+                            Diverse categories
+                        </div>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                    </div>
+                    <!-- Carousel -->
+                    <div id="carousel_OP_SmallerProjects" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <a href="./Images/Unity/SmallProjects/MagicalBubblespng.png" target="_blank">
+                                    <img src="./Images/Unity/SmallProjects/MagicalBubblespng.png" class="d-block w-100 img-fluid" alt="Magical Bubbles - A Bubble Shooter Game">
+                                </a>
+                            </div>                            
+                            <div class="carousel-item">
+                                <a href="./Images/Unity/SmallProjects/ExploringBorders-TouristRunner.png" target="_blank">
+                                    <img src="./Images/Unity/SmallProjects/ExploringBorders-TouristRunner.png" class="d-block w-100 img-fluid" alt="Exploring Borders - Tourist Runner - An Endless Runner Game">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="./Images/Unity/SmallProjects/GrandmotherLostSomethingAgain.png" target="_blank">
+                                    <img src="./Images/Unity/SmallProjects/GrandmotherLostSomethingAgain.png" class="d-block w-100 img-fluid" alt="Grandmother lost something again - A Hidden Object Game">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="./Images/Unity/SmallProjects/LetItGrow.png" target="_blank">
+                                    <img src="./Images/Unity/SmallProjects/LetItGrow.png" class="d-block w-100 img-fluid" alt="Let It Grow - A typing game">
+                                </a>
+                            </div>
+                            <div class="carousel-item active">
+                                <a href="./Images/Unity/SmallProjects/BlueberryAttack.png" target="_blank">
+                                    <img src="./Images/Unity/SmallProjects/BlueberryAttack.png" class="d-block w-100 img-fluid" alt="Blueberry Attack - A 2D Arcade Game">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_OP_SmallerProjects" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p class="lead mt-3">
+                        Small projects, mostly during Game Jams.
+                    </p>
+                    <ul class="project-features">
+                        <li> Bubble Shooter
+                        </li>                        
+                        <li> Endless Runner
+                        </li>
+                        <li> Hidden Object Game, memory game
+                        </li>
+                        <li> Typing Game
+                        </li>
+                        <li> 2D Arcade Game
+                        </li>
+                    </ul>
+                </div>
+                <div class="row-tags">
+                    <span class="project-tag" data-category="engine">Unity
+                    </span>
+                    <span class="project-tag" data-category="engine">Affinity Designer
+                    </span>
+                    <span class="project-tag" data-category="engine">Clip Studio Paint
+                    </span>
+                    <span class="project-tag" data-category="language">C#
+                        </span>
+                    <span class="project-tag" data-category="platform">PC
+                        </span>
+                    <span class="project-tag" data-category="style">2D
+                        </span>
+                    <span class="project-tag" data-category="concept">Architecture Design
+                        </span>
+                    <span class="project-tag" data-category="concept">Game features
+                        </span>
+                    <span class="project-tag" data-category="concept">Localization
+                        </span>
+                </div>
+            </div>
+         </div>
+             </section>
+        <br>
+             <img  class="divider" src="./Images/Decorative/Divider.png"> </img>
+             <div class="container_intro">
+                 <div class="row">
+                     <div class="col-md-4">
+                     </div>
+                     <section id="about-me">
+                         <h1 class="display-6 fw-bold header-baseCol">Hi, I'm <strong>Marie Hellström</strong></h1>
+                         <h2 class="display-7 fw-bold header-baseCol">a <i>Game Programmer</i> for <i>your next project</i>!</h2>
+
+                         <div class="social" href="mailto:mlhellstroem@gmail.com">
+                             <svg class="iconSocial" viewBox="0 0 16 16">
+                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                             </svg>
+                             mlhellstroem@gmail.com
+                         </div>
+                         <div class="social" href="https://www.linkedin.com/in/marie-luise-hellstr%C3%B6m-3b1338190/" target="_blank">
+                             <svg class="iconSocial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                             </svg>
+                             LinkedIn
+                         </div>
+                         <div class="social" href="files/resume.pdf">
+                             <svg class="iconSocial" viewBox="0 0 16 16">
+                                 <path d="M5.523 10.424q.21-.124.459-.238a8 8 0 0 1-.45.606c-.28.337-.498.516-.635.572l-.035.012a.3.3 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548m2.455-1.647q-.178.037-.356.078a21 21 0 0 0 .5-1.05 12 12 0 0 0 .51.858q-.326.048-.654.114m2.525.939a4 4 0 0 1-.435-.41q.344.007.612.054c.317.057.466.147.518.209a.1.1 0 0 1 .026.064.44.44 0 0 1-.06.2.3.3 0 0 1-.094.124.1.1 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256M8.278 4.97c-.04.244-.108.524-.2.829a5 5 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.5.5 0 0 1 .145-.04c.013.03.028.092.032.198q.008.183-.038.465z"/>
+                                 <path fill-rule="evenodd" d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m.165 11.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.6 11.6 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.86.86 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.84.84 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.8 5.8 0 0 0-1.335-.05 11 11 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.24 1.24 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a20 20 0 0 1-1.062 2.227 7.7 7.7 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103"/>
+                             </svg>
+                             Resume
+                         </div>
+                         <p class="lead"> With 3 professional and 5+ years of experience in Unity and a strong background in C# and multiplayer systems, I build games that are clean under the hood and fun on the surface.<br>
+                             From developing core gameplay systems to creating editor tools and managing remote teams, I bring both technical depth and collaborative experience to every project. <br>
+                             I worked on mobile, 2D, and 3D games, including leading the development of a multiplayer Trading Card Game with Photon. I’m passionate about writing efficient, maintainable code and helping teams stay organized and agile, especially through SCRUM-based workflows.
+                             <br><br>
+                             While my focus is on programming, I also bring a creative edge: I have a experience in visual design and can create simple 2D and 3D assets when needed.<br>
+                             Whether you're looking for a <b>Technical Designer</b>, a reliable <b>Team Lead</b>, or a <b>Programmer</b> with an eye for gameplay feel, I'm <b>your</b> match.
+                     </section>
+                 </div>
+             </div>
+        <div class="Skills">
             <div class="left_skills">
                 <h4 class="header-baseCol">Programming</h4>
                 <div class="flexcontainer-icons">
                     <img src="./Images/Icons/U_Cube_1C_White.png" alt="Unity"  width="55px"></img>
-                </div>
- 
-            <div class="flexcontainer-icons">
+               
                 <img src="./Images/Icons/Csharp_Logo.png" alt="C#" width="60px"></img>
             </div>
 
@@ -157,195 +749,68 @@
               </div>
             </div>
           </div>
-            <!------------------------------ UNITY  --------------------->
-            <img  class="divider" src="./Images/Decorative/Divider.png"> </img>
-            <div class="flex-center">
-                 <h1 class="fw-bold header-baseCol" id="Unity">Unity</h1>
-            </div>
-
-
-                <!------------------------------ Sniper 3  --------------------->
-                <div class="row flex-lg-row align-items-center g-5 py-5 pad-l-10 pad-r-10 pad-b--50px mar-t--50px mar-r-0">
-                    <div class="col-10 col-sm-8 col-lg-6">
-                        <div class="right_large">
-                            <a href="./Images/JESoftware/sniper3.png" target="_blank">
-                                <img src="./Images/JESoftware/sniper3.png" class="d-block mx-lg-auto img-fluid" style="max-height: 500px; width: auto;"  alt="Zombie Sniper War 3">
-                            </a>
-                        </div>
-                    </div>
-       
-                   <div class="col-lg-6">
-                   <h3 class="fw-bold header-baseCol">Project: <a href="https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3" target="_blank"><strong>Zombie Sniper War 3 - Fire FPS</strong></a></h3>
-                   3D, Mobile app
-                   <script src="js/icon_company.cs "></script>JESoftware<br>
-                   <script src="js/icon_clock.cs "></script> ~6 months
-                   <tab class="space"></tab> <script src="js/icon_human.cs"></script><b>Game Programmer</b> <br>
-                   Shooter<br>
-    
-                    <img  class="divider_s" src="./Images/Decorative/Divider.png"> </img>
-           
-                   <p class="lead">
-                       <li> Focused on developing custom editor tools.
-                       </li>
-                       <li> Refactoring and restructuring the existing codebase.
-                       </li>
-                       <li> Implementing the foundational systems for a casino wheel game.
-                       </li>
-                   </p>
-                   </div>
-               </div>
-
-        <!------------------------------ Unnamed project  --------------------->
-        <div class="row flex-lg-row-reverse align-items-center g-2 py-5 pad-l-10 pad-r-10 pad-b--50px mar-r-0">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <div class="right_large">
-                    <div id="carousel_UE_KJ" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carousel_UE_KJ" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carousel_UE_KJ" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="./Images/JESoftware/Merge_Mechanic5to2.gif" target="_blank">
-                                    <img src="./Images/JESoftware/Merge_Mechanic5to2.gif" class="d-block mx-lg-auto img-fluid" style="max-height: 500px; width: auto;"  alt="Merge mechanic gif">
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="./Images/JESoftware/2DTo3DPlacing.gif" target="_blank">
-                                    <img src="./Images/JESoftware/2DTo3DPlacing.gif" class="d-block mx-lg-auto img-fluid" style="max-height: 500px; width: auto;" alt="Transition between 2D and 3D"></a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_UE_KJ" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_UE_KJ" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h3 class="fw-bold header-baseCol">Project: <strong>Two unnamed projects</strong></h3>
-                3D, mobile app
-                <script src="js/icon_company.cs "></script>JESoftware<br>
-                <script src="js/icon_clock.cs "></script> ~6 month
-                <tab class="space"></tab> <script src="js/icon_human.cs"></script><b>Game Programmer</b> <br>
-                <br>
-
-                <img  class="divider_s" src="./Images/Decorative/Divider.png"> </img>
-
-                <p class="lead">
-                    <li> Contributed to two ongoing, unnamed projects still in development.
-                    </li>
-                    <li> Implementing editor functionality to switch materials across multiple objects with a single button.
-                    </li>
-                    <li> Developing a merging feature.
-                    </li>
-                    <li> Implementing dynamic transitions between 2D menu elements and interactive 3D units on the field
-                    </li>
-                </p>
-            </div>
         </div>
-
-        <!------------------------------ Flexify  --------------------->
-        <div class="row flex-lg-row align-items-center g-5 py-5 pad-l-10 pad-r-10 pad-b--50px mar-t--50px mar-r-0">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <div class="right_large">
-                        <a href="./Images/JESoftware/flexify.png" target="_blank">
-                            <img src="./Images/JESoftware/flexify.png" class="d-block mx-lg-auto img-fluid" style="max-height: 500px; width: auto;"  alt="Flexify screenshot">
-                        </a>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h3 class="fw-bold header-baseCol">Project: <a href="https://play.google.com/store/apps/details?id=com.JESoftware.JEBend" target="_blank"> <strong>Flexify</strong></a></h3>
-                2D, Mobile app
-                <script src="js/icon_company.cs "></script>JESoftware<br>
-                <script src="js/icon_clock.cs "></script> ~6 months
-                <tab class="space"></tab> <script src="js/icon_human.cs"></script><b>Programmer</b> <br>
-                Sport activity<br>
-
-                <img  class="divider_s" src="./Images/Decorative/Divider.png"> </img>
-
-                <p class="lead">
-                    <li> Refactored core code.
-                    </li>
-                    <li> Resolved bugs.
-                    </li>
-                    <li> Expanded existing features.
-                    </li>
-                    <li> Implementing a system to convert between the two measurement: metric system and imperial system.
-                    </li>
-                    <li> A calendar that displays the data for the selected day, including the progress and the exercises completed on that day.
-                    </li>
-                </p>
-            </div>
-        </div>
-            
-                      <!------------------------------ NEVERRIFT  --------------------->
-            <div class="row flex-lg-row-reverse align-items-center g-2 py-5 pad-l-10 pad-r-10 pad-b--50px mar-r-0">
-                <div class="col-10 col-sm-8 col-lg-6">
-                       <div class="right_large">
-                           <div class="portfolio-img">
-                           <a href="./Images/Unity/Neverrift/Neverrift-TCG-3-smartphones-768x679.png" target="_blank">
-                               <img src="./Images/Unity/Neverrift/Neverrift-TCG-3-smartphones-768x679.png" class="d-block w-75 mx-lg-auto img-fluid" alt="Neverrift screenshot">
-                           </a>
-                           </div>
-                       </div>
-                   </div>
-       
-                   <div class="col-lg-6">
-                   <h3 class="fw-bold header-baseCol">Project:   <a href="https://www.neverrift.com/mobile-app/" target="_blank"><strong>Neverrift</strong></a></h3>
-                   2D, mobile app for trading card game
-                   <script src="js/icon_company.cs "></script>Gate to the Games<br>
-                   <script src="js/icon_clock.cs "></script> 31 months
-                    <tab class="space"></tab> <script src="js/icon_human.cs"></script><b>Lead Game Programmer</b> <br>
-                  <br>
-    
-                    <img  class="divider_s" src="./Images/Decorative/Divider.png"> </img>
-                 
-                   <p class="lead">
-                       <li> Started as sole Game Programmer alongside two Game Designers.
-                       </li>
-                       <li> Developed main structure code for 2D turn and grid based Trading Card Game in Unity Engine.
-                    </li>
-                    <li> Implemented multiplayer features with Photon.    
-                    </li>
-                    <li> Developed game-related editor tools to facilitate implementing new game content.     
-                    </li>
-                    <li> Performed code refactoring and optimization to improve performance.
-                    </li>
-                    <li> Implementing localization process, ensuring accurate translations without compromising gameplay quality.
-                    </li>
-                    <li> Leading team meetings following SCRUM principles and managing tasks as Lead Programmer.
-                    </li>
-                    <li> Collaborated with designers for seamless integration of gameplay mechanics.
-                    </li>   
-                   </p>
-                   </div>
-               </div>
-
         <img  class="divider" src="./Images/Decorative/Divider.png"> </img>
-        <div class="flex-center">
-            <p>
-            
-                And some more small projects covering 2D of development. <br> 
-                Game Jam projects:<br> 
-                <a href="https://sunfiragames.itch.io/" target="_blank">https://sunfiragames.itch.io/</a> <br>
-            </p>
-           
-          
-        </div>
-
     </body>
 
     <footer>
 
-
+        <nav class="navbar navbar-expand-lg flex-center">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkupFooter">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="files/resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M5.523 10.424q.21-.124.459-.238a8 8 0 0 1-.45.606c-.28.337-.498.516-.635.572l-.035.012a.3.3 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548m2.455-1.647q-.178.037-.356.078a21 21 0 0 0 .5-1.05 12 12 0 0 0 .51.858q-.326.048-.654.114m2.525.939a4 4 0 0 1-.435-.41q.344.007.612.054c.317.057.466.147.518.209a.1.1 0 0 1 .026.064.44.44 0 0 1-.06.2.3.3 0 0 1-.094.124.1.1 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256M8.278 4.97c-.04.244-.108.524-.2.829a5 5 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.5.5 0 0 1 .145-.04c.013.03.028.092.032.198q.008.183-.038.465z"/>
+                                <path fill-rule="evenodd" d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m.165 11.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.6 11.6 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.86.86 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.84.84 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.8 5.8 0 0 0-1.335-.05 11 11 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.24 1.24 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a20 20 0 0 1-1.062 2.227 7.7 7.7 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103"/>
+                            </svg>
+                            Resume
+                        </a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/marie-luise-hellstr%C3%B6m-3b1338190/" target="_blank" rel="noopener noreferrer">
+                            <svg class="iconSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a class="nav-link" href="mailto:mlhellstroem@gmail.com">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg>
+                            mlhellstroem@gmail.com
+                        </a>
+                        <a class="nav-link" href="#projects">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z"/>
+                                <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27"/>
+                            </svg>
+                            Projects
+                        </a>
+                        <a class="nav-link" href="#about-me">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                            </svg>
+                            About me
+                        </a>
+                        <a class="nav-link" href="https://sunfiragames.itch.io/" target="_blank" rel="noopener noreferrer">
+                            <svg class="iconSVG" viewBox="0 0 24 24">
+                                <path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.137 2.41 2.466 2.41h.024c1.33 0 2.466-1.102 2.466-2.41 0 1.308 1.034 2.41 2.363 2.41 1.33 0 2.4-1.102 2.4-2.41 0 1.308 1.106 2.41 2.435 2.41C22.78 8.43 24 7.282 24 5.98V4.95c-.02-.62-2.082-2.99-3.13-3.612-3.253-.114-5.508-.134-8.87-.133-3.362 0-7.945.053-8.87.133zm6.376 6.477a2.74 2.74 0 0 1-.468.602c-.5.49-1.19.795-1.947.795a2.786 2.786 0 0 1-1.95-.795c-.182-.178-.32-.37-.446-.59-.127.222-.303.412-.486.59a2.788 2.788 0 0 1-1.95.795c-.092 0-.187-.025-.264-.052-.107 1.113-.152 2.176-.168 2.95v.005l-.006 1.167c.02 2.334-.23 7.564 1.03 8.85 1.952.454 5.545.662 9.15.663 3.605 0 7.198-.21 9.15-.664 1.26-1.284 1.01-6.514 1.03-8.848l-.006-1.167v-.004c-.016-.775-.06-1.838-.168-2.95-.077.026-.172.052-.263.052a2.788 2.788 0 0 1-1.95-.795c-.184-.178-.36-.368-.486-.59-.127.22-.265.412-.447.59a2.786 2.786 0 0 1-1.95.794c-.76 0-1.446-.303-1.948-.793a2.74 2.74 0 0 1-.468-.602 2.738 2.738 0 0 1-.463.602 2.787 2.787 0 0 1-1.95.794h-.16a2.787 2.787 0 0 1-1.95-.793 2.738 2.738 0 0 1-.464-.602zm-2.004 2.59v.002c.795.002 1.5 0 2.373.953.687-.072 1.406-.108 2.125-.107.72 0 1.438.035 2.125.107.873-.953 1.578-.95 2.372-.953.376 0 1.876 0 2.92 2.934l1.123 4.028c.832 2.995-.266 3.068-1.636 3.07-2.03-.075-3.156-1.55-3.156-3.025-1.124.184-2.436.276-3.748.277-1.312 0-2.624-.093-3.748-.277 0 1.475-1.125 2.95-3.156 3.026-1.37-.004-2.468-.077-1.636-3.072l1.122-4.027c1.045-2.934 2.545-2.934 2.92-2.934zM12 12.714c-.002.002-2.14 1.964-2.523 2.662l1.4-.056v1.22c0 .056.56.033 1.123.007.562.026 1.124.05 1.124-.008v-1.22l1.4.055C14.138 14.677 12 12.713 12 12.713z"/>
+                            </svg>
+                            itch.io
+                        </a>
+                        <a class="nav-link" href="#">
+                            <svg class="iconSVG" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+                            </svg>
+                            Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         
     </footer>
 </html>
