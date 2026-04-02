@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa40e562-feed-4b7a-8429-8d5c1f76f142" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/css/basestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/basestyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styleLarge.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleLarge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +27,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fa40e562-feed-4b7a-8429-8d5c1f76f142" name="Changes" comment="" />
@@ -46,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1774949788918</updated>
       <workItem from="1774949792171" duration="536000" />
-      <workItem from="1775029158512" duration="12328000" />
+      <workItem from="1775029158512" duration="12666000" />
+      <workItem from="1775123793973" duration="1806000" />
     </task>
     <servers />
   </component>
