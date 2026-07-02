@@ -354,7 +354,7 @@ footer{
   position: relative;
   width: 800px;
   height: 400px;
-  background-image: url("../images/Pokemon/Game_Area_BG.png");
+  background-image: url("../Images/Pokemon/Game_Area_BG.png");
   background-repeat: no-repeat;
   border: 2px solid rgba(255, 184, 77);
   overflow: hidden;
@@ -364,7 +364,7 @@ footer{
   position: absolute;
   width: 35px;
   height: 29px;
-  background-image: url("../images/Pokemon/Arcanine-Sheet.png");
+  background-image: url("../Images/Pokemon/Arcanine-Sheet.png");
   background-repeat: no-repeat;
 }
 
@@ -447,42 +447,42 @@ footer{
   position: absolute;
   background-repeat: repeat;
   background-size: 20px 20px;
-  background-image: url("../images/Pokemon/platform_ground.png");
+  background-image: url("../Images/Pokemon/platform_ground.png");
 }
 
 .platform.groundGrass {
   position: absolute;
   background-repeat: repeat;
   background-size: 20px 20px;
-  background-image: url("../images/Pokemon/platform_grass.png");
+  background-image: url("../Images/Pokemon/platform_grass.png");
 }
 
 .platform.ground-dry {
   position: absolute;
   background-repeat: repeat;
   background-size: 20px 20px;
-  background-image: url("../images/Pokemon/platform_ground_dry.png");
+  background-image: url("../Images/Pokemon/platform_ground_dry.png");
 }
 
 .platform.groundGrass-dry {
   position: absolute;
   background-repeat: repeat;
   background-size: 20px 20px;
-  background-image: url("../images/Pokemon/platform_grass_dry.png");
+  background-image: url("../Images/Pokemon/platform_grass_dry.png");
 }
 
 .platform.floating {
   position: absolute;
   background-repeat: repeat;
   background-size: 20px 20px;
-  background-image: url("../images/Pokemon/platform_grass.png");
+  background-image: url("../Images/Pokemon/platform_grass.png");
 }
 
 .enemy.fearow {
   position: absolute;
   width: 35px;
   height: 40px;
-  background-image: url("../images/Pokemon/Fearow-Sheet.png");
+  background-image: url("../Images/Pokemon/Fearow-Sheet.png");
   background-repeat: no-repeat;
 }
 
@@ -528,7 +528,7 @@ footer{
   position: absolute;
   width: 35px;
   height: 40px;
-  background-image: url("../images/Pokemon/FearowShiny-Sheet.png");
+  background-image: url("../Images/Pokemon/FearowShiny-Sheet.png");
   background-repeat: no-repeat;
 }
 
@@ -556,7 +556,7 @@ footer{
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("../images/Pokemon/Spearow-Sheet.png");
+  background-image: url("../Images/Pokemon/Spearow-Sheet.png");
   background-repeat: no-repeat;
 }
 
@@ -600,14 +600,14 @@ footer{
   position: absolute;
   width: 13px;
   height: 20px;
-  background-image: url("../images/Pokemon/LeppaBerry.png");
+  background-image: url("../Images/Pokemon/LeppaBerry.png");
 }
 
 .leppaBerry-infinite {
   position: absolute;
   width: 15px;
   height: 22px;
-  background-image: url("../images/Pokemon/LeppaBerry_infinite.png");
+  background-image: url("../Images/Pokemon/LeppaBerry_infinite.png");
 }
 
 .coin {
@@ -645,7 +645,7 @@ footer{
   position: absolute;
   width: 40px;
   height: 40px;
-  background-image: url("../images/Pokemon/Stump.png");
+  background-image: url("../Images/Pokemon/Stump.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -654,7 +654,7 @@ footer{
   position: absolute;
   width: 15px;
   height: 9px;
-  background-image: url("../images/Pokemon/Fireball-Sheet.png");
+  background-image: url("../Images/Pokemon/Fireball-Sheet.png");
   background-repeat: no-repeat;
 }
 
@@ -688,7 +688,7 @@ footer{
   position: absolute;
   width: 19px;
   height: 19px;
-  background-image: url("../images/Pokemon/Growlithe-Sheet.png");
+  background-image: url("../Images/Pokemon/Growlithe-Sheet.png");
   background-repeat: no-repeat;
 }
 
