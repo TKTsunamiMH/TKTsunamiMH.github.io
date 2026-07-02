@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ac888e2-ee8b-42ee-9ecf-31105e7a9da2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/basestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/basestyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleLarge.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleLarge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-    </list>
+    <list default="true" id="6ac888e2-ee8b-42ee-9ecf-31105e7a9da2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +31,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,6 +44,7 @@
       <updated>1774950335361</updated>
       <workItem from="1774950336446" duration="13000" />
       <workItem from="1774950407285" duration="15221000" />
+      <workItem from="1782736253558" duration="598000" />
     </task>
     <servers />
   </component>

@@ -81,7 +81,7 @@
                 <section class="availability-card">
                     <h2>Available for Full-Time &amp; Part-Time</h2>
                     <p>
-                        Sweden-based Unity Game Programmer with 3 years of professional experience.
+                        Sweden-based Software and Game Programmer with 3 years of professional experience.
                         Ready to contribute to your team immediately.
                     </p>                    
                     <div class="availability-tags">
@@ -105,14 +105,126 @@
                 </section>
         </div>
         <br>
+        <div id="arcanine-game-container">
+            <h1>Save Growlithe</h1>
+    <div class="game-container">
+      <div class="ui">
+        <p>Score: <span id="score">0</span></p>
+        <p>Levels: <span id="level">1</span></p>
+        <p>Lives: <span id="lives">3</span></p>
+        <p>PP: <span id="ap">0</span></p>
+      </div>
+      
+      <div id="game-area">
+        <div id="arcanine"></div>
+      </div>
+
+      <div class="controls">
+        <h4>Controls:</h4>
+        <p>Move Left/Right: Arrow Keys or A & D keys</p>
+        <p>E Key: Attack (only with PP)</p>
+        <p>Space Key: Jump</p>
+        <p>Down Arrow, S Key: Enter Pipe (when on top of it)</p>
+      </div>
+    </div>
+
+    <div id="game-over">
+      <h2 id="game-over-title">Game Over</h2>
+      <p>Score:<span id="final-score">0</span></p>
+      <button id="restart-button">Play again</button>
+    </div>
+    <div class="mobile-game-message">
+        This game is available on desktop only.
+    </div>
+        </div>
+
              <section id="projects">
         <div class="horizontal-container">
+            <!------------------------------ Save Growlithe  --------------------->
+            <div class="project-card">
+                <div class="project-card-title" posi="">
+                    <img class="game-logo" src="./Images/Pokemon/SaveGrowlithe_logo.png" class="game-logo" alt="Save Growlithe Icon">
+                </div>
+                <div class="project-meta">
+                    2D Pixel Art, Web Browser
+                    <div class="tab">
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                        </svg>
+                        Own Project<tab class="space"></tab><br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <b>Game Programmer, Game Designer</b><br>
+                        <svg class="iconAvailability" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        </svg>
+                        2026<br>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                        <div class="project-type">
+                            2D Platformer, Jump ’n’ Run
+                        </div>
+                        <img class="divider_s" src="./Images/Decorative/Divider.png">
+                    </div>
+                    <!-- Carousel -->
+                    <div id="carousel_SaveGrowlithe" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel_MFG_Fishtank" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel_MFG_Fishtank" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="./Images/Pokemon/SaveGrowlithe_01.png" target="_blank">
+                                    <img src="./Images/Pokemon/SaveGrowlithe_01.png" class="d-block w-100 img-fluid" alt="Play as Arcanine to save Growlithe.">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="./Images/Pokemon/SaveGrowlithe_02.png" target="_blank">
+                                    <img src="./Images/Pokemon/SaveGrowlithe_02.png" class="d-block w-100 img-fluid" alt="Shoot fireballs.">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_SaveGrowlithe" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_SaveGrowlithe" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="row-tags">
+                        <span class="project-tag" data-category="language">JavaScript
+                        </span>
+                        <span class="project-tag" data-category="language">HTML
+                        </span>
+                        <span class="project-tag" data-category="language">CSS
+                        </span>
+                        <span class="project-tag" data-category="platform">Web Browser
+                        </span>
+                        <span class="project-tag" data-category="style">Pixel Art
+                        </span>
+                        <span class="project-tag" data-category="concept">Collision Detection
+                        </span>
+                        <span class="project-tag" data-category="concept">Game Loop
+                        </span>
+                    </div>
+                    <p class="lead mt-3">
+                        Building and designing a fish tank, based on your own or your client's wishes.
+                    </p>
+                    <ul class="project-features">
+                        <li>Developed a browser-based 2D platformer using JavaScript, HTML, and CSS.</li>
+                        <li>Implemented player movement, jumping, gravity, platform collision, and level boundaries.</li>
+                        <li>Created enemy behavior including patrol movement, vertical flying movement, hit states, health, and defeat logic.</li>
+                        <li>Implemented a fireball attack system with PP costs, infinite PP power-up behavior, projectile range, and enemy collision.</li>
+                        <li>Designed level objects such as coins, surprise blocks, platforms, rescue target behavior, and level progression.</li>
+                    </ul>
+                </div>
+            </div>
             <!------------------------------ Fishtank  --------------------->
             <div class="project-card">
                 <div class="project-card-title" posi="">
-<!--                    <a class="project-link" href="https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3" target="_blank" class="project-link">-->
-<!--                        <img class="game-logo" src="./Images/JESoftware/sniper3.png" class="game-logo" alt="Zombie Sniper War 3 - Fire FPS">-->
-<!--                    </a>-->
                     <img class="game-logo" src="./Images/Unity/Fishtank/banner.png" class="game-logo" alt="Fish Tank Banner">
                 </div>
                 <div class="project-meta">
@@ -122,7 +234,7 @@
                             <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
                             <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
                         </svg>
-                        <a href="https://www.jesoftware.se/" target="_blank">Own Project<tab class="space"></tab></a> <br>
+                        Own Project<tab class="space"></tab><br>
                         <svg class="iconAvailability" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                         </svg>
@@ -700,7 +812,7 @@
                              </svg>
                              Resume
                          </div>
-                         <p class="lead"> With 3 professional and 5+ years of experience in Unity and a strong background in C# and multiplayer systems, I build games that are clean under the hood and fun on the surface.<br>
+                         <p class="lead"> Currently transitioning into software and web development to broaden my skill set. With 3 professional and 5+ years of experience in Unity and a strong background in C# and multiplayer systems, I build games that are clean under the hood and fun on the surface.<br>
                              From developing core gameplay systems to creating editor tools and managing remote teams, I bring both technical depth and collaborative experience to every project. <br>
                              I worked on mobile, 2D, and 3D games, including leading the development of a multiplayer Trading Card Game with Photon. I’m passionate about writing efficient, maintainable code and helping teams stay organized and agile, especially through SCRUM-based workflows.
                              <br><br>
@@ -765,6 +877,7 @@
           </div>
         </div>
         <img  class="divider" src="./Images/Decorative/Divider.png"> </img>
+        <script src="./app.js"></script>
     </body>
 
     <footer>

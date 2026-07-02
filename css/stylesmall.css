@@ -1,6 +1,8 @@
-@media all  and (max-width: 500px)
+@media all  and (max-width: 850px)
 {
     
-    
+    #arcanine-game-container {
+    display: none;
+    }
 
 }
