@@ -614,16 +614,17 @@ footer{
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("https://i.imgur.com/wbKxhcd.png");
-  animation: coinSpin 1s linear infinite;
+  background-image: url("../Images/Pokemon/Pokecoin-Sheet.png");
+  background-repeat: no-repeat;
+  animation: coinSpin 0.5s steps(4) infinite;
 }
 
 @keyframes coinSpin {
-  0% {
-    transform: rotateY(0deg)
+  from {
+    background-position: 0 0;
   }
-  100% {
-    transform: rotateY(360deg)
+  to {
+    background-position: -80px 0;
   }
 }
 
@@ -631,14 +632,14 @@ footer{
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("https://i.imgur.com/gesQ1KP.png");
+  background-image: url("../Images/Pokemon/Bush.png");
 }
 
 .surprise-block.hit {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("https://i.imgur.com/bdrLpi6.png");
+  background-image: url("../Images/Pokemon/BushOpen.png");
 }
 
 .stump {
