@@ -4,6 +4,27 @@ Personal portfolio showcasing my work as a **Game Programmer**, with a focus on 
 
 🌐 **[View the live portfolio](https://tktsunamimh.github.io/)**
 
+### Portfolio Preview
+
+<p>
+<a href="https://tktsunamimh.github.io/">
+  <img src="./Images/Github/portfolio-overview.png"
+       alt="Portfolio overview"
+      width="49%">
+</a>
+<a href="https://tktsunamimh.github.io/#projects">
+  <img src="./Images/Github/portfolio-projects.png"
+       alt="Selected game and software development projects"
+      width="49%">
+</a>
+</P>
+
+<p align="center">
+  <strong>
+    <a href="https://tktsunamimh.github.io/">→ View the Live Portfolio ←</a>
+  </strong>
+</p>
+
 ## 👋 About
 
 I'm a Game Programmer with a background in **C# and Unity**, currently expanding my skills toward broader **Software Development**.
