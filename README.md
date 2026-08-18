@@ -2,8 +2,6 @@
 
 Personal portfolio showcasing my work as a **Game Programmer**, with a focus on gameplay systems, programming, tools, and software architecture.
 
-🌐 **[View the live portfolio](https://tktsunamimh.github.io/)**
-
 ### Portfolio Preview
 
 <p>
@@ -104,8 +102,6 @@ Open `index.html` in your browser.
 🌐 **Portfolio:** https://tktsunamimh.github.io/
 
 💻 **GitHub:** https://github.com/TKTsunamiMH
-
-🎮 **itch.io:** https://sunfiragames.itch.io/
 
 ---
 
